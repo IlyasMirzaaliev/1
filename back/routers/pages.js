@@ -14,5 +14,11 @@ router.get('/register', (req, res) => {
     })
 })
 
+router.get('/login', (req, res) => {
+    res.send({
+        message: "Login Page"
+    })
+})
+
 
 module.exports =router
