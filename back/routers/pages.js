@@ -21,4 +21,8 @@ router.get('/login', (req, res) => {
 })
 
 
-module.exports =router
+// router.get('/users, ', (req, res) => {
+//     res.redirect('http://localhost:7000/auth/users')
+// })
+
+module.exports = router

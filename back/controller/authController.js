@@ -82,9 +82,7 @@ const jwt = require('jsonwebtoken')
 
      async getUsers(req, res) {
          try {
-             res.send({
-                 message: 'users list'
-             })
+             res.redirect('http://localhost:7000/get/users')
          } catch (error) {
              console.log(error)
          }

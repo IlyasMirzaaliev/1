@@ -13,6 +13,7 @@ app.use(cookeParser())
 
 app.use('/auth', require('./routers/authRouter'))
 app.use('/', require('./routers/pages'))
+// app.use('/get', require('./routers/userRouter'))
 
 
 const startServer = async () => {
